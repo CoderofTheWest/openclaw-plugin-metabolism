@@ -1,5 +1,5 @@
 {
-  "id": "metabolism",
+  "id": "openclaw-plugin-metabolism",
   "name": "Metabolism — Autonomous Learning",
   "description": "Entropy-triggered conversation metabolism with async LLM processing. Extracts implications, growth vectors, and knowledge gaps from high-entropy exchanges during heartbeat cycles.",
   "version": "0.1.0",
