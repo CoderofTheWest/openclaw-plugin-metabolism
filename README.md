@@ -10,7 +10,7 @@ Most AI agents have the memory of a goldfish. They can recall what happened earl
 
 This plugin closes that gap. It watches conversations for moments of significance — corrections, novel concepts, high-entropy exchanges — and metabolizes them into three outputs:
 
-- **Implications** — What the agent actually learned, stated in its own voice. Not summaries, not transcripts. Actionable insights like "When Chris says 'lightweight', verify cost in both latency and complexity."
+- **Implications** — What the agent actually learned, stated in its own voice. Not summaries, not transcripts. Actionable insights like "When the user says 'lightweight', verify cost in both latency and complexity."
 - **Growth vectors** — Implications significant enough to become permanent character traits. These flow to the stability plugin, where they accumulate into durable identity over time.
 - **Knowledge gaps** — Questions the agent couldn't fully resolve. These flow to the contemplation plugin for multi-pass inquiry during off-hours.
 

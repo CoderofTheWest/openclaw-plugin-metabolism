@@ -193,9 +193,9 @@ note: this is also a note
     });
 
     test('_classifyVectorType() categorizes correctly', () => {
-        const corrections = processor._classifyVectorType('When Chris corrects me about the system');
+        const corrections = processor._classifyVectorType('When the user corrects me about the system');
         const procedural = processor._classifyVectorType('I should always check runtime before asserting');
-        const pattern = processor._classifyVectorType('I notice a pattern in how Chris asks questions');
+        const pattern = processor._classifyVectorType('I notice a pattern in how the user asks questions');
         
         if (corrections !== 'user_correction') {
             throw new Error(`Expected user_correction, got ${corrections}`);
@@ -260,7 +260,7 @@ note: this is also a note
         const vectors = [
             {
                 id: 'gv_test',
-                text: 'When Chris mentions "lightweight", verify both latency and complexity cost',
+                text: 'When the user mentions "lightweight", verify both latency and complexity cost',
                 type: 'user_correction',
                 validation_status: 'candidate'
             }
